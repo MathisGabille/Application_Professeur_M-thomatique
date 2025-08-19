@@ -27,7 +27,7 @@ const TeacherNavigator = () => {
           } else if (route.name === 'FlashCards') {
             iconName = focused ? 'card' : 'card-outline';
           } else if (route.name === 'Facturation') {
-            iconName = focused ? 'card' : 'card-outline';
+            iconName = focused ? 'cash' : 'cash-outline';
           } else {
             iconName = 'help-outline';
           }
